@@ -1,0 +1,16 @@
+<h1>
+    List of Tasks
+</h1>
+<ul>
+<% todoList.forEach(function(todo,index){ %>
+            <li>
+                <a href="/todo/delete/<%= index %>">X</a>
+                <%= todo %>
+            </li>
+<% }); %>
+
+</ul>
+<form action="/todo/add" method="post">
+    <input type="text" name="todo" autofocus />
+    <input type="submit" value="submit">
+</form>

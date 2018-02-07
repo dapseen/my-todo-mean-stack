@@ -1,0 +1,21 @@
+{
+  "name": "my-todo-list",
+  "version": "0.0.1",
+  "description": "my personal todo list",
+  "main": "app.js",
+  "dependencies": {
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.2",
+    "ejs": "^2.5.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "list"
+  ],
+  "author": "dapsee@gmail.com",
+  "license": "ISC"
+}
